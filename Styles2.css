@@ -1,0 +1,45 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url(font/Roboto-Regular.ttf) format('truetype');
+
+}
+
+.header{
+   background-color: #2c3e50;
+   font-family: 'Roboto', sans-serif; 
+   text-align: center;
+   padding: 20px;
+   color: white;
+}
+
+.logo{
+ font-size: x-large;  
+;
+}
+
+.nav-link a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 15px;
+}
+
+#content{
+    height: auto;
+}
+
+.posts-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+}
+
+.lastbox{
+    background-color: #2c3e50;
+    padding: 20px;
+    margin: 70px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    text-align: center;
+}

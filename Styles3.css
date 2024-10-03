@@ -1,0 +1,50 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url(font/Roboto-Regular.ttf) format('truetype');
+
+}
+
+.header{
+   background-color: #2c3e50;
+   font-family: 'Roboto', sans-serif; 
+   text-align: center;
+   padding: 20px;
+   color: white;
+}
+
+.logo{
+ font-size: x-large;  
+;
+}
+
+.nav-link a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 15px;
+}
+
+.weathercont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolonner for værdata */
+    gap: 20px;
+    padding: 20px;
+}
+
+.weathercard {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.lastbox{
+    background-color: #2c3e50;
+    padding: 20px;
+    margin: 70px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    text-align: center;
+}
